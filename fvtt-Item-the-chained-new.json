@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "TheChained",
+        "abbreviation": "FeyPr",
+        "full": "Fey Protector",
+        "authors": [
+          "0rganics"
+        ],
+        "version": "1.1",
+        "url": "https://www.gmbinder.com/share/-MoOHihKipiDrItAqNfz",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1638965531,
+    "dateLastModified": 1638965531,
+    "_dateLastModifiedHash": "cfadb0b2d2"
+  },
+  "subclass": [
+    {
+      "name": "Fey Protector",
+      "shortName": "Fey Protector",
+      "source": "0rganicsFeyProtector",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Fey Protector|Ranger||Fey Protector|0rganicsFeyProtector|3",
+        "Sure-Footed|Ranger||Fey Protector|0rganicsFeyProtector|7",
+        "Fey Resistance|Ranger||Fey Protector|0rganicsFeyProtector|11",
+        "Natural Reflexes|Ranger||Fey Protector|0rganicsFeyProtector|15"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Fey Protector",
+      "source": "0rganicsFeyProtector",
+      "page": 1,
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Fey Protector",
+      "subclassSource": "0rganicsFeyProtector",
+      "level": 3,
+      "entries": [
+        "A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Protector, a ranger sworn to protect nature across the mortal and the fey realms.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "One with Nature|Ranger||Fey Protector|0rganicsFeyProtector|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Fey Protector Magic|Ranger||Fey Protector|0rganicsFeyProtector|3"
+        }
+      ]
+    }
+  ]
+}
