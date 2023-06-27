@@ -1,0 +1,123 @@
+{
+  "name": "Torturous Grasp",
+  "type": "spell",
+  "img": "icons/svg/ruins.svg",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family:Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace\">\"The ground turned black, silver chains snaked up our legs, our very vitality was drained at that moment. An area of up to 60 feet around the caster will have the ground turned pitch black. Chains will attempt to bind any creature, ally or foe, within the area. The number of chains will depend on the creature's size: Small &amp; Medium - 1 Large - 2 Huge - 3 Gargantuan - 4 If the creature does not succeed in a Wisdom Saving Throw, they will be Grappled and have their Concentration rolled on disadvantage. Allies that are chained will share their consciousness with the caster, and are able to use Awakened Mind. Enemies that are chained will also share the same benefit. Allies that are chained can choose to donate their vitality to any other bound ally. Enemies that are chained will be drained up to Chains * d6 health as Force Damage, evenly distributed amongst every bound ally.</span></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 60,
+      "width": null,
+      "units": "ft",
+      "type": "creature"
+    },
+    "range": {
+      "value": 60,
+      "long": 120,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": "cha",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "nec",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "effectActivation": false
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "exportSource": {
+      "world": "cacarecos-em-wildemount",
+      "system": "dnd5e",
+      "coreVersion": "10.291",
+      "systemVersion": "2.2.1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "10.291",
+    "createdTime": 1687808502868,
+    "modifiedTime": 1687808650619,
+    "lastModifiedBy": "npjRR9eGvLttdnsa"
+  }
+}

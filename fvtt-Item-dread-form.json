@@ -1,0 +1,148 @@
+{
+  "name": "Dread Form",
+  "type": "feat",
+  "img": "dread.png",
+  "system": {
+    "description": {
+      "value": "<p>Dread Form is a unique ability or transformation that manifests in certain individuals during times of extreme fear or imminent danger. When activated, it empowers the individual with heightened physical and mental capabilities, allowing them to tap into their deepest reserves of strength and resilience.</p><p>When someone enters Dread Form, their physical appearance undergoes a dramatic change. Their eyes glow with an eerie, luminescent color, and their body becomes engulfed in swirling shadows or ethereal mist. This transformation grants them an imposing presence, radiating an aura of intimidation and instilling fear in their adversaries.</p><p></p><p>+5 temp life</p><p>Instills fear on first hit (wisdom saving throw)<br /><br />Level 9<br />+10 temp life</p><p>Advantage on wisdom saving throws</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "2",
+      "per": "lr",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "pact"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": true
+    }
+  },
+  "effects": [
+    {
+      "label": "New Effect",
+      "icon": "icons/svg/eye.svg",
+      "origin": "Item.tMw1aNHyq5tlIr0j",
+      "duration": {
+        "startTime": null,
+        "seconds": 18,
+        "combat": null,
+        "rounds": 3,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "rBRVbLMdqAWmDk7n",
+      "changes": [
+        {
+          "key": "system.attributes.hp.temp",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        }
+      ],
+      "tint": null,
+      "transfer": true,
+      "flags": {
+        "times-up": {},
+        "dfreds-convenient-effects": {
+          "description": ""
+        },
+        "dae": {
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "stackable": "noneName",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "statusId": ""
+        }
+      }
+    }
+  ],
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "exportSource": {
+      "world": "cacarecos-em-wildemount",
+      "system": "dnd5e",
+      "coreVersion": "10.291",
+      "systemVersion": "2.2.1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "10.291",
+    "createdTime": 1687807517798,
+    "modifiedTime": 1687808477851,
+    "lastModifiedBy": "npjRR9eGvLttdnsa"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "The Chained",
+  "type": "subclass",
+  "img": "Chained.png",
+  "system": {
+    "description": {
+      "value": "<div class=\"mb-2 ve-flex-col\"><div class=\"rd__b  rd__b--1\"><p>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.</p><div class=\"rd__b  rd__b--2\"><h3 class=\"rd__h rd__h--2\" data-title-index=\"1\"><span class=\"entry-title-inner\">Expanded Spell List</span><span class=\"rd__h-toggle ml-2 clickable\" data-rd-h-toggle-button=\"true\">[–]</span></h3><p>The Chainese lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p><table class=\"w-100 rd__table  stripe-odd-table\"><caption>Great Old One Expanded Spells</caption><thead><tr><th class=\"col-2 text-center\" data-rd-isroller=\"false\">Spell Level</th><th class=\"col-10\" data-rd-isroller=\"false\">Spells</th></tr></thead><tbody><tr><td class=\"col-2 text-center\">1st</td><td class=\"col-10\"><a href=\"https://5e.tools/spells.html#chaos%20bolt_xge\">Chaos Bolt</a>, <a href=\"https://5e.tools/spells.html#silvery%20barbs_scc\">Silvery Barbs</a></td></tr><tr><td class=\"col-2 text-center\">2nd</td><td class=\"col-10\"><a href=\"https://5e.tools/spells.html#enthrall_phb\">Enthrall</a>, <a href=\"https://5e.tools/spells.html#warding%20bond_phb\">Warding Bond</a></td></tr><tr><td class=\"col-2 text-center\">3rd</td><td class=\"col-10\"><a href=\"https://5e.tools/spells.html#summon%20shadowspawn_tce\">Summon Shadowspawn</a>, <a href=\"https://5e.tools/spells.html#vampiric%20touch_phb\">Vampiric Touch</a></td></tr><tr><td class=\"col-2 text-center\">4th</td><td class=\"col-10\"><a href=\"https://5e.tools/spells.html#evard's%20black%20tentacles_phb\">Evard's Black Tentackles</a>, <a href=\"https://5e.tools/spells.html#guardian%20of%20faith_phb\">Guardian of Faith</a></td></tr><tr><td class=\"col-2 text-center\">5th</td><td class=\"col-10\"><a href=\"https://5e.tools/spells.html#geas_phb\">Geas</a>, <a href=\"https://5e.tools/spells.html#modify%20memory_phb\">Modify Memory</a></td></tr></tbody></table></div></div></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "identifier": "the-chained",
+    "classIdentifier": "warlock",
+    "advancement": [
+      {
+        "_id": "OFCEkLnC80K0vrdP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Item.tMw1aNHyq5tlIr0j"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Dread Form"
+      },
+      {
+        "_id": "rDPtX8EvsCV7ehRa",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Item.ljl70Qd13CBoHSvP"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 6,
+        "title": ""
+      },
+      {
+        "_id": "JFydpbnRYY9diWuT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Item.pRkFQLLjBlK4bRbb"
+          ],
+          "optional": false,
+          "spell": {
+            "ability": "cha",
+            "preparation": "pact",
+            "uses": {
+              "max": "1",
+              "per": "lr"
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": ""
+      },
+      {
+        "_id": "Ltx58tSe6oUhQe1K",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": {
+            "ability": "",
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1
+      }
+    ],
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "cha"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "cacarecos-em-wildemount",
+      "system": "dnd5e",
+      "coreVersion": "10.291",
+      "systemVersion": "2.2.1"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "10.291",
+    "createdTime": 1683844967414,
+    "modifiedTime": 1687809860594,
+    "lastModifiedBy": "npjRR9eGvLttdnsa"
+  }
+}
