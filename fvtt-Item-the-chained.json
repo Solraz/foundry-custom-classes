@@ -2,17 +2,25 @@
   "_meta": {
 		"sources": [
 			{
-				"json": "The Chained",
-				"abbreviation": "CHAINED",
-				"full": "The Chained Warlock Subclass",
+				"json": "XUA2022ExpertClasses",
+				"abbreviation": "XUA22EC",
+				"full": "Unearthed Arcana 2022: Expert Classes",
 				"authors": [
-					"Opalka"
+					"Wizards of the Coast"
 				],
 				"version": "1.0.0",
-				"url": "",
-				"dateReleased": "2023-06-26"
+				"url": "https://media.dndbeyond.com/compendium-images/one-dnd/expert-classes/kpx0MvyfBGHe0XKk/UA2022-Expert-Classes.pdf",
+				"dateReleased": "2022-09-29"
 			}
-		]
+		],
+		"dateAdded": 1683844967414,
+		"dateLastModified": 1687809860594,
+		"_dateLastModifiedHash": "npjRR9eGvLttdnsa",
+		"dependencies": {
+			"spell": [
+				"PHB"
+			]
+		}
 	},
   "name": "The Chained",
   "type": "subclass",
@@ -23,6 +31,7 @@
       "chat": "",
       "unidentified": ""
     },
+    "source": "",
     "identifier": "the-chained",
     "classIdentifier": "warlock",
     "advancement": [
