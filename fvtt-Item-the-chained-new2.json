@@ -20,7 +20,7 @@
   "subclass": [
     {
       "name": "The Chained",
-      "shortName": "The Chained",
+      "shortName": "Chained",
       "source": "CHND",
       "className": "Warlock",
       "classSource": "PHB",
@@ -37,7 +37,7 @@
       "page": 1,
       "className": "Warlock",
       "classSource": "PHB",
-      "subclassShortName": "The Chained",
+      "subclassShortName": "Chained",
       "subclassSource": "CHND",
       "level": 3,
       "entries": [
