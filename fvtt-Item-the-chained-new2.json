@@ -3,13 +3,12 @@
     "sources": [
       {
         "json": "TheChained",
-        "abbreviation": "CHND",
+        "abbreviation": "TheChained",
         "full": "The Chainese",
         "authors": [
           "Opalka"
         ],
         "version": "1.1",
-        "url": "",
         "targetSchema": "1.0.0"
       }
     ],
@@ -19,32 +18,53 @@
   },
   "subclass": [
     {
-      "name": "The Chained",
-      "shortName": "Chained",
+      "name": "TheChained",
+      "shortName": "TheChained",
       "source": "CHND",
       "className": "Warlock",
       "classSource": "PHB",
       "page": 1,
       "subclassFeatures": [
-        "Dread Form|Warlock||Chained|TheChained|3"
+        "Dread Form|Warlock||TheChained|TheChained|3"
       ]
     }
   ],
   "subclassFeature": [
+    {
+      "name": "TheChained",
+      "source": "TheChained",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "TheChained",
+      "subclassSource": "TheChained",
+      "level": 3,
+      "entries": [
+        "",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Dread Form|Warlock||TheChained|TheChained|3"
+        }
+      ]
+    },
     {
       "name": "Dread Form",
       "source": "TheChained",
       "page": 1,
       "className": "Warlock",
       "classSource": "PHB",
-      "subclassShortName": "Chained",
+      "subclassShortName": "TheChained",
       "subclassSource": "TheChained",
       "level": 3,
+      "header": 1,
       "entries": [
         "Dread Form is a unique ability or transformation that manifests in certain individuals during times of extreme fear or imminent danger. When activated, it empowers the individual with heightened physical and mental capabilities, allowing them to tap into their deepest reserves of strength and resilience. \n When someone enters Dread Form, their physical appearance undergoes a dramatic change. Their eyes glow with an eerie, luminescent color, and their body becomes engulfed in swirling shadows or ethereal mist. This transformation grants them an imposing presence, radiating an aura of intimidation and instilling fear in their adversaries. \n +5 temp life \n Instills fear on first hit (wisdom saving throw) \n Level 9 \n +10 temp life \n Advantage on wisdom saving throws.",
         {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Dread Form|Warlock||Chained|TheChained|3"
+          "type": "list",
+          "items": [
+            "You learn the {@spell druidcraft} cantrip, which is a ranger spell for you.",
+            "You gain an additional favored terrain."
+          ]
         }
       ]
     }
