@@ -3,10 +3,10 @@
     "sources": [
       {
         "json": "TheChained",
-        "abbreviation": "FeyPr",
-        "full": "Fey Protector",
+        "abbreviation": "CHND",
+        "full": "The Chainese",
         "authors": [
-          "0rganics"
+          "Opalka"
         ],
         "version": "1.1",
         "url": "https://www.gmbinder.com/share/-MoOHihKipiDrItAqNfz",
@@ -19,39 +19,32 @@
   },
   "subclass": [
     {
-      "name": "Fey Protector",
-      "shortName": "Fey Protector",
-      "source": "0rganicsFeyProtector",
-      "className": "Ranger",
+      "name": "The Chained",
+      "shortName": "The Chained",
+      "source": "CHND",
+      "className": "Warlock",
       "classSource": "PHB",
       "page": 1,
       "subclassFeatures": [
-        "Fey Protector|Ranger||Fey Protector|0rganicsFeyProtector|3",
-        "Sure-Footed|Ranger||Fey Protector|0rganicsFeyProtector|7",
-        "Fey Resistance|Ranger||Fey Protector|0rganicsFeyProtector|11",
-        "Natural Reflexes|Ranger||Fey Protector|0rganicsFeyProtector|15"
+        "Dread Form|Warlock||The Chained|CHND|3"
       ]
     }
   ],
   "subclassFeature": [
     {
-      "name": "Fey Protector",
-      "source": "0rganicsFeyProtector",
+      "name": "Dread Form",
+      "source": "CHND",
       "page": 1,
-      "className": "Ranger",
+      "className": "Warlock",
       "classSource": "PHB",
-      "subclassShortName": "Fey Protector",
-      "subclassSource": "0rganicsFeyProtector",
+      "subclassShortName": "The Chained",
+      "subclassSource": "CHND",
       "level": 3,
       "entries": [
-        "A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Protector, a ranger sworn to protect nature across the mortal and the fey realms.",
+        "Dread Form is a unique ability or transformation that manifests in certain individuals during times of extreme fear or imminent danger. When activated, it empowers the individual with heightened physical and mental capabilities, allowing them to tap into their deepest reserves of strength and resilience. \n When someone enters Dread Form, their physical appearance undergoes a dramatic change. Their eyes glow with an eerie, luminescent color, and their body becomes engulfed in swirling shadows or ethereal mist. This transformation grants them an imposing presence, radiating an aura of intimidation and instilling fear in their adversaries. \n +5 temp life \n Instills fear on first hit (wisdom saving throw) \n Level 9 \n +10 temp life \n Advantage on wisdom saving throws.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "One with Nature|Ranger||Fey Protector|0rganicsFeyProtector|3"
-        },
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Fey Protector Magic|Ranger||Fey Protector|0rganicsFeyProtector|3"
+          "subclassFeature": "Dread Form|Warlock||The Chained|CHND|3"
         }
       ]
     }
